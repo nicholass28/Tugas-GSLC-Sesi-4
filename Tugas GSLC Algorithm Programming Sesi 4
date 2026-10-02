@@ -1,0 +1,32 @@
+#example of list
+list1= [1,6,2,8,3,2,5]
+print (list1)
+
+#range function
+list2= list(range(1,21,4))
+print (list2)
+
+#min max sum from the list
+nilaimin= min(list1)
+nilaimax=max(list1)
+nilaisum=sum(list1)
+print (f'Nilai min adalah {nilaimin}, nilai max adalah {nilaimax}, dan jumlah total adalah {nilaisum}')
+
+#SLICE AND LOOP
+# (slice)
+daftarhuruf= ['A','B','C','D','E']
+print (daftarhuruf[0:3])
+# (loop)
+for i in range (1,4):
+    print ("Yes")
+
+#slice and loop of the list
+daftarnama= ["Kay","Fawwaz","Ega","Radit","Erland","Yehuda"]
+for namateman in daftarnama[0:2]:
+    print (namateman)
+
+#example of tuple
+tuple1= (9,4,8,2,8,3)
+print (tuple1)
+
+
